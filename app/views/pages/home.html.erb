@@ -1,2 +1,11 @@
-<h1>Welcome to my app!</h1>
-<p>sign up <%= link_to "here","#" %></p>
+<div class="jumbotron"/>
+	<h1>Welcome to my app!</h1>
+	<p>Click here to <%= link_to about_path, class: "btn btn-primary btn-lg" do %>
+		<span class="glyphicon glyphicon-thumbs-up"></span> Sign Up
+		<% end %>
+	</p>
+</div>
+
+
+
+
