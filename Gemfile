@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# recommended for heroku
+ruby '2.0.0'
 
 gem 'rails', '4.2.3'
 gem 'sass-rails', '~> 5.0'
