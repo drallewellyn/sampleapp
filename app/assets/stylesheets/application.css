@@ -12,7 +12,6 @@
  *
  * added masonry css stylings
  *= require_self
- *= require 'masonry/fluid'
  *= require 'masonry/transitions'
  *= require_tree .
  */
