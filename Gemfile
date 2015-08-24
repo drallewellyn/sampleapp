@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 # recommended for heroku
-ruby '2.2.1'
+ruby '2.2.2'
 
 gem 'rails', '4.2.3'
 gem 'sass-rails', '~> 5.0'
@@ -16,6 +16,7 @@ gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.3.0'
 gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails'
+gem 'omniauth-twitter', '~> 1.2.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
