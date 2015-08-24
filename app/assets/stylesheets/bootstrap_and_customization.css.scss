@@ -1,24 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Montserrat:400,700|Ubuntu:400,700|Roboto+Slab:400,700);
 
 $body-bg: #ecf0f1;
-$font-family-sans-serif:                'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                                        45px;
+$font-family-sans-serif: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
 $navbar-inverse-bg: #22A7F0;
 $navbar-inverse-link-color: white;
 $jumbotron-bg: #81cfe0;
-$pagination-bg: #22a7f0;
-$pagination-active-bg: white;
-$pagination-disabled-bg: white;
-$pagination-color: white;
-$pagination-hover-color: #22a7f0;
-$pagination-active-color: #22a7f0;
-$pagination-disabled-color: #D3EDFC;
-$pagination-active-border: #22a7f0;
-$brand-primary: #F27935;
-
+//$pagination-bg: #22a7f0;
+//$pagination-active-bg: white;
+//$pagination-color: white;
+//$pagination-hover-color: #22a7f0;
+//$pagination-active-color: #22a7f0;
+//$pagination-disabled-color: #D3EDFC;
+//$pagination-active-border: #22a7f0;
+$brand-primary: #22a7f0;
 
 @import "bootstrap-sprockets";
 @import 'bootstrap';
+
+$brand-custom1: #F27935;
+
+.btn-custom1 {
+  @include button-variant(#ffffff, $brand-custom1, darken($brand-custom1, 10%));
+}
 
 .centre {
      text-align: center;
@@ -28,5 +32,7 @@ $brand-primary: #F27935;
      font-weight: bold;
 }
 
-body { padding-top: 70px; }
+body { 
+    padding-top: 70px; 
+}
 
